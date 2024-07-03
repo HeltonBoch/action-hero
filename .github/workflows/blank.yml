@@ -21,7 +21,7 @@ jobs:
     steps:
      - uses: actions/checkout@v4
      - name: Check Start
-       run: uanme -a
+       run: /usr/bin/uanme -a
        shell: bash
 
       
