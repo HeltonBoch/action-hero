@@ -9,15 +9,15 @@ on:
 
 jobs:
   hello:
-    runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: hello world
-        run: echo "Hello world, from GitHub actions"
+     - uses: actions/checkout@v4
+     - name: hello world
+       run: echo "Hello world, from GitHub actions"
         #shell: bash
   goodbye:
-    runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
     steps:
-        - name: goodbye world
-        run: echo "Goodbye world" 
-        #shell: bash
+     - name: goodbye world
+       run: echo "Goodbye world" 
+         #shell: bash
