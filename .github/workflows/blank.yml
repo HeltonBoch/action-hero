@@ -21,8 +21,8 @@ jobs:
     steps:
      - uses: actions/checkout@v4
      - name: Check Start
-       run: /usr/bin/uanme -a
-       shell: bash
+       run: echo "Trying new changes"
+       
 
       
   build:
