@@ -16,10 +16,9 @@ jobs:
       - name: hello world
         run: echo "Hello world, from GitHub actions"
         shell: bash
-
-goodbye:
+  goodbye:
     runs-on: ubuntu-latest
     steps:
         - name: goodbye world
-        run: echo "Goodby world" 
+        run: echo "Goodbye world" 
         shell: bash
